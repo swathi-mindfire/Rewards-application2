@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="homestyle.css">
+  </head>
+  <body>
+    <div class="logo-banner">
+        <p class="logo"><img src="logo.png" alt="logo" width="50px" height="50px"><p class="sitename">Easy Buy</p></p>
+        <p class="banner"></p>
+
+    </div>
+    <div class="container">
+      <div class="main">
+        <div class="head"><p>Create account</p></div>
+        <div class="form f1">
+          <form action="home.html" method="post">
+           
+            <p class="fname">
+              <input type="text" name="fname" value="" placeholder="Enter First Name" class="name-inp name1">
+              <input type="text" name="lname" value="" placeholder="Enter Middle Name" class="name-inp name2">
+              <input type="text" name="lname" value="" placeholder="Enter Last Name" class="name-inp name3">
+            <p>
+              <input type="email" name="uid" value="" placeholder="Enter your Email" class="name-inp fname mail">
+            </p>
+            
+            <p class="pwd">    
+              <input type="password" name="password" placeholder="Enter password" class="password fpass">
+              <input type="password" name="password" placeholder="Confirm password" class="password rpass">
+            </p>
+           
+            <p><input type="tel" name="mobno" placeholder="Enter your mobile number" pattern="[0-9]{10}" password" class="name-inp tel"></p>
+            <p class="gender">
+                <span class="gen">Gender</span>
+                <input type="radio" class="gendr genm" name="gendr">  male
+                <input type="radio" class="gendr genf" name="gendr">  female
+                <input type="radio" class="gendr geno" name="gendr">  others
+            </p>
+            <p class="dob">
+              Date of Birth 
+            <td><input type="date" name="dob" value="" >
+            </p>
+            <p>
+              <div class="checkhead">Interesed in</div>
+
+              <div class="checkgrp1">
+               <input type="checkbox" value="sports"  class="chkbox" > <span class="chk"> sports</span>
+               <input type="checkbox" value="Books"  class="chkbox" > <span class="chk"> Books</span>
+               <input type="checkbox" value=" poetry"   class="chkbox"> <span class="chk"> poetry</span>
+               <input type="checkbox" value="Arts"  class="chkbox" ><span class="chk"> Arts</span>
+               <input type="checkbox" value="Dance"  class="chkbox" ><span class="chk"> Dance</span>
+               
+              </div>
+              <div class="checkgrp2">
+               <input type="checkbox" value="photography"  class="chkbox"><span class="chk"> photography</span>
+               <input type="checkbox" value="music"  class="chkbox"> <span class="chk"> music</span>
+               <input type="checkbox" value="computer & software"   class="chkbox"> <span class="chk"> computer & software</span>
+               
+              </div>
+              <textarea name="paddr" rows="2" cols="29" placeholder="Enter your current address" class="addr caddr"></textarea>
+              <textarea name="paddr" rows="2" cols="29" placeholder="Enter your permanent address" class="addr paddr"></textarea>
+            </p>
+          
+            <p class="residence">
+              <input type="text" name="country" value="" placeholder="country" class="name-inp name1 res">
+              <input type="text" name="country" value="" placeholder="state" class="name-inp name2 res">
+              <input type="text" name="country" value="" placeholder="zip" class="name-inp name3 res">
+            <p>
+          
+               
+            
+            <p><input type="submit" name="sb" value="Sign Up" class="sub"></p>
+          </form>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </body>
+</html>

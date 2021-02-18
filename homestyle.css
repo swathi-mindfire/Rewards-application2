@@ -1,0 +1,283 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    
+
+}
+body{
+    /*background-image:url("fullbg.png");*/
+    background-color: white;
+}
+
+.f1{
+    float: left;
+}
+.container{
+    width:100%;
+    height:100vh;
+   
+     /*
+    background-color: aliceblue;
+   
+    background-image:url("bg.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;*/
+
+}
+.main{
+    width:35%;
+    height:600px;
+    background-color:rgba(255, 255, 255);
+    margin:50px 35%;
+    border-radius:4px;
+    margin-top: 3.5%;
+   
+
+}
+
+.head{
+    width: 100%;
+    height: 40px;
+    /*background-color: #f88800;*/
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 18px;
+    margin-left: -120px;
+    
+}
+.head p{
+
+    line-height: 40px;
+    text-align: center;
+    font-size:35px;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: -30px;
+
+}
+
+.form{
+    width: 100%;
+    height:500px;
+    margin-top: -10px;
+}
+.name{
+    font-size: 20px;
+    color:white;
+    margin:15px 0 0 5%;
+}
+/*.name-inp{
+    width:41%;
+    height:30px;
+    margin:5px 0  10px 10%;
+    font-size: 16px;
+    padding:2px;
+    
+    border-radius: 2px;
+    color:rgb(119,119,119);
+    border: 1px solid rgb(75, 52, 52);
+    background-color: rgb(255, 255, 255);
+}
+*/
+.name-inp{
+    width:70%;
+    height:30px;
+    padding:2px;
+    font-size: 13px;
+    border-radius: 4px;
+    border:1px solid rgb(17,67,107);
+    
+    
+}
+.fname{
+    width:120%;
+    margin:10px 10px  10px 10px;
+        
+}
+.name1{
+    margin-right: 8px;
+    width:24%;
+}
+.name2{
+    margin-right: 8px;
+    width:24.5%;
+
+}
+.name3{
+    margin-right: 3px;
+    width:24.5%;
+
+}
+.pwd{
+    width:102%;
+    margin-left: -16px;
+    display: flex;
+        
+        
+}
+
+.password{
+    margin:10px 0 10px 10px;
+    height:30px;
+    
+    padding:2px;
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(17,67,107);
+    border-radius: 4px;
+}
+.fpass{
+    margin-left:27px;
+    width:310px;
+    
+
+}
+
+.rpass{
+    
+    width:310px;
+    margin-left:16px;
+   
+
+}
+.mail{
+    width:95%;
+
+}
+
+.tel{
+    width:95.5%;
+    margin-left:2%;
+    margin-top: 10px;
+
+
+}
+.gender{
+    margin:8px 0 0 8%;
+    color:black;
+    font-size:16px;
+    font-weight:450;
+
+}
+.gen{
+    font-size:15px;
+    margin-left:-28px;
+    
+
+}
+.gendr{
+    margin-left:15%;
+    font-size:12px;
+}
+
+.genm{
+    margin-left:10px;
+    margin-top: 15px;
+    font-size:12px;
+}
+.genf{
+    margin-left:20px;
+    margin-top: 15px;
+    font-size:12px;
+}
+.geno{
+    margin-left:20px;
+    margin-top: 15px;
+    font-size:12px;
+}
+
+
+.sub{
+    width:97%;
+    margin:15px 0 0 9px;
+    font-size:20px;
+    height:40px;
+    background-color: #5591ec;
+    border:1px solid #5591ec;
+    color:#fff;
+    text-align: center;
+
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.dob{
+    margin-left:10px;
+    margin-top: 14px;
+    font-size: 14px;
+}
+.checkhead{
+    margin-top: 12px;
+    margin-left: 11px;
+}
+.checkgrp1{
+    margin-top: -25px;
+    margin-left: 120px;
+    
+}
+.checkgrp2{
+    margin-top: 7px;
+    margin-left: 120px;
+}
+.chk{
+    font-size: 14px;
+
+}
+.chkbox{
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+.addr{
+    margin-top: 15px;
+    margin-right:-20px;
+    margin-left: 10px;
+    text-align: center; 
+    padding-top: 20px;
+    
+}
+.paddr{
+    margin-left: 28px;
+    border:1px solid rgb(17,67,107);
+    border-radius: 3px;
+}
+.caddr{
+    border:1px solid rgb(17,67,107);
+    border-radius: 3px;
+}
+.res{
+    width: 140px;
+
+     margin-left: 10px;
+     margin-top: 10px;
+     margin-right:-5px;
+}
+.logo-banner{
+    background-color:rgba(4,29,49,0.5);
+    height: 70px;
+}
+.logo{
+    margin-left: 5px;
+    margin-top: -10px;
+    padding-top: 14px;
+}
+.banner{
+
+    margin-right: 30px;
+}
+.sitename{
+    margin-left:-3%;
+    margin-top:-60px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:40px;
+    text-align: center;
+    font-weight:500;
+    
+    
+
+    
+}
